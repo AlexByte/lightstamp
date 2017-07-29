@@ -1,0 +1,22 @@
+{
+  "name": "lightstamp",
+  "version": "1.0.0",
+  "description": "Lightweight Livestamp.js alternative , that depends only on Moment",
+  "main": "lightstamp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctl/lightstamp.git"
+  },
+  "keywords": [
+    "timestamp"
+  ],
+  "author": "ctl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctl/lightstamp/issues"
+  },
+  "homepage": "https://github.com/ctl/lightstamp#readme"
+}
