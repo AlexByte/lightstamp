@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Lightstamp.js demo</title>
-	</head>
-	<body>
-		<h1>Lightstamp.js demo</h1>
-		<p>Current timestamp: <span class="timestamp"></span></p>
-		<p>You opened this page <span  data-timestamp=""></span></p>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
-		<script src="https://cdn.rawgit.com/ctl/lightstamp/master/lightstamp.js"></script>
-		<script>
-		var timestamp = Math.floor(Date.now() / 1000)
-		document.querySelector('.timestamp').innerHTML = timestamp
-		document.querySelector('[data-timestamp]').dataset.timestamp = timestamp
-		</script>
-		</body>
-		</html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Lightstamp.js demo</title>
+   </head>
+   <body>
+      <h1>Lightstamp.js demo</h1>
+      <p>Current timestamp: <span class="timestamp"></span></p>
+      <p>You opened this page <span  data-timestamp=""></span></p>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+      <script src="https://cdn.rawgit.com/ctl/lightstamp/master/lightstamp.js"></script>
+      <script>
+         var timestamp = Math.floor(Date.now() / 1000)
+         document.querySelector('.timestamp').innerHTML = timestamp
+         document.querySelector('[data-timestamp]').dataset.timestamp = timestamp
+      </script>
+   </body>
+</html>
