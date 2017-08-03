@@ -1,5 +1,7 @@
 # Lightstamp
-Livestamp-like library that requires only moment.js for automatically updated timestamps (like "X minutes ago")
+[![license](https://img.shields.io/github/license/ctl/lightstamp.svg?style=flat-square)](https://github.com/ctl/lightstamp/blob/master/LICENSE)
+
+Livestamp-like library for automatically updated timeago that requires only moment.js (like "X minutes ago")
 
 [Demo](https://ctl.github.io/lightstamp/index.html)
 
