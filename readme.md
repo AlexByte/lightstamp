@@ -1,7 +1,5 @@
 # Lightstamp
-Livestamp-like library for automatically updated timestamps (like "X minutes ago")
-# Why?
-Livestamp.js and Timeago.js depends on jQuery + Moment. This library depends only on Moment.
+Livestamp-like library that requires only moment.js for automatically updated timestamps (like "X minutes ago")
 # Usage
 ```html
 <span data-timestamp="your_timestamp">fallback</span>
