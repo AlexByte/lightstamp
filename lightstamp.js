@@ -14,9 +14,7 @@ http://github.com/ctl/lightstamp
             }
         }
     }
-    if (i) {
         updateTimestamps(); //Do it!!!
-    }
     setInterval(function() { //Update it each second
         updateTimestamps();
     }, 1000)
